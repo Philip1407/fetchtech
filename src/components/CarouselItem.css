@@ -1,0 +1,40 @@
+.CarouselItem{
+    margin: 10px;
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 200px;
+    height: 240px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.CarouselItem img{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+.CarouselItem .info{
+    padding: 0 10px;
+}
+
+.CarouselItem h3,p{
+    margin: 0.4rem 0;
+}
+
+.CarouselItem p, .disable{
+    color: #92929D;
+}
+
+.CarouselItem .insufficient{
+    color: blue;
+}
+
+.CarouselItem .clock{
+    font-size: 1rem;
+    margin-right: 10px
+}

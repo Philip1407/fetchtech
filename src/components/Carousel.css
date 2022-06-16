@@ -1,0 +1,8 @@
+.Carousel .list{
+    display: flex;
+    overflow: scroll;
+}
+
+.Carousel .list::-webkit-scrollbar{
+    display: none;
+}

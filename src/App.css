@@ -1,0 +1,86 @@
+.App{
+  height: fit-content;
+}
+
+.backButton{
+  background-color: white;
+  border:1px solid transparent;
+  border-radius: 50%;
+  padding: 0.4em 0.5em;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.Header{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  padding-bottom: 200px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: 600;
+}
+
+.card{
+  margin: 20px;
+  margin-top: -150px;
+  padding: 5px 10px; 
+  background-color: white;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px 0.5px silver;
+
+  background-image: url('https://img.freepik.com/free-vector/white-abstract-background-3d-paper-style_23-2148403778.jpg?w=2000');
+  background-size: cover;
+}
+
+.card h6{
+  color:#92929D;
+  margin: 10px 0px;
+}
+
+.card h2{
+  font-size: 2.5rem;
+  margin: 10px 0px;
+}
+.card p{
+  font-weight: 300;
+  color: #92929D;
+}
+
+.card a{
+  font-weight: 400;
+  color:blue;
+  outline: none;
+  text-decoration: none;
+}
+
+.card a:link{
+  color: blue;
+}
+
+.card button{
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2%;
+  margin: 15px 0px; 
+}
+
+.card .date{
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.Carousel{
+  padding: 20px;
+}
+
+.navbarSpace{
+  width: 100%;
+  height: 44px;
+}

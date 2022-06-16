@@ -1,0 +1,36 @@
+.BottomNavBar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding-top: 5px;
+}
+
+.BottomNavBar ul{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none
+}
+
+.BottomNavBar li{
+   list-style-type: none;
+}
+
+.BottomNavBar .icon{
+    font-size: 2.5rem;
+}
+
+.BottomNavBar .notify::after{
+    content: '.';
+    padding:0;
+    color: red;
+    font-size: 6rem;
+    margin: 0;
+    position: relative;
+    top: -25px;
+    left:-23px;
+    line-height: 0;
+}
